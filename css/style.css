@@ -1,0 +1,152 @@
+h1, h2 {
+    font-family: 'Montserrat';
+}
+
+.navbar-defaut {
+     background-color: transparent;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	text-transform : uppercase;
+}
+
+header {
+	background-image: linear-gradient(rgba(28,29,33,0.8), rgba(12,12,12,0.8)) , url("../images/background1.jpg");
+	background-position: center center;
+	background-size : cover;
+	background-attachment: fixed;
+	height : 100vh;
+}
+
+header div {
+	position: absolute;
+	text-align: center;
+	width: 100vw;
+	top: 40vh;
+	color: white;
+}
+
+.btn-primary {
+	background-color: white;
+	border-color: white;
+	color: black;
+}
+
+.btn-secondary {
+	background-color: #6195ff;
+	border-color: #6195ff;
+	color: white;
+}
+
+.btn-secondary:hover {
+	background-color: white;
+	color: #6195ff;
+}
+
+#welcome {
+	padding : 10vh;
+}
+
+#welcome h2 {
+	font-style: 2em;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.card-deck {
+	margin-top: 10vh;
+}
+
+.fas, .fa {
+	color:  #6195ff;
+	margin-top: 45px;
+}
+
+div h5 {
+	font-weight: bold;
+}
+
+div p {
+	color: grey;
+}
+
+.read-more {
+	color: #6195ff;
+	text-decoration: none;
+}
+
+#works h2 {
+	margin-top: 6vh; 
+	font-style: 2em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+
+#works {
+	background-color : rgba(249,249,249);
+	background-position: center center;
+	background-size : cover;
+	background-attachment: fixed;
+	height : 100vh;
+	width: 100%;
+}
+
+#offer h2 {
+	font-style: 2em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-top: 6vh; 
+	text-align: center;	
+}
+
+.fas, .fa {
+	float: left;
+	margin-left: 15px;
+	margin-top: 34px;
+	padding-right: 15px;
+}
+
+.card-block {
+	border: solid;
+	border-color: rgb(249, 249, 249); 
+	border-radius: 5px;
+}
+
+h5 p {
+	text-align: left;
+}
+
+#choose h2 {
+	margin-top: 6vh; 
+	font-style: 2em;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+
+#choose ul {
+	margin-left: 0;
+}
+
+#choose i {
+	color: #6195ff;
+}
+#choose i p {
+	color: #80808F;
+}
